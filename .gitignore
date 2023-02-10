@@ -1,6 +1,6 @@
 a.json
 participant_data.json
-*.database/
+database/
 
 # Logs
 logs

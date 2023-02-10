@@ -35,7 +35,7 @@ app.get('/loginserver/getinfo/:id', function (req, res) {
 
 app.get('/loginserver/getinfocustom/:db/:id', function (req, res) {
    // First read existing users.
-   fs.readFile( __dirname + "database/" + req.params.db + ".json", 'utf8', function (err, data) {
+   fs.readFile( __dirname + "/database/" + req.params.db + ".json", 'utf8', function (err, data) {
       var users = JSON.parse( data );
       var user = users[req.params.id]
       console.log( user );
