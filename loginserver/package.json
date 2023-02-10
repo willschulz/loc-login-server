@@ -1,8 +1,8 @@
 {
-  "name": "spirals_beta",
+  "name": "login_server",
   "version": "1.0.0",
-  "description": "Spirals API Beta",
-  "main": "spiralsbeta.js",
+  "description": "Login Server",
+  "main": "loginserver.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
