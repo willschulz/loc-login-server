@@ -1,0 +1,14 @@
+{
+  "name": "spirals_beta",
+  "version": "1.0.0",
+  "description": "Spirals API Beta",
+  "main": "spiralsbeta.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Schulz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
